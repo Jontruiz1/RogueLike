@@ -1,3 +1,3 @@
-/*y += 30;
-alarm[0] = move_down_speed;
-*/
+if(instance_exists(obj_player)){
+	obj_player.iframe = true;
+}
